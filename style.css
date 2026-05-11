@@ -16,6 +16,10 @@ body {
     line-height: 1.6;
 }
 
+.works-page #work {
+    background-color: var(--secondary-color);
+}
+
 header {
     background-color: var(--bg-color);
     padding: 1rem;
@@ -283,8 +287,8 @@ section {
 .modal {
     display: none; 
     position: fixed; 
-    z-index: 100;
-    padding-top: 100px; 
+    z-index: 1000;
+    padding-top: 60px; 
     left: 0;
     top: 0;
     width: 100%; 
@@ -298,6 +302,13 @@ section {
     display: block;
     width: 80%;
     max-width: 700px;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
 }
 
 .close-btn {
@@ -378,5 +389,9 @@ section {
 
     .contact-content {
         padding: 4rem 1rem;
+    }
+
+    .modal-content {
+        width: 95%;
     }
 }
