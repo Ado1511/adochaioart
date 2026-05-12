@@ -39,7 +39,7 @@ This project is a personal portfolio website for an Art Director. The design is 
 - A redesigned, modern section with a distinct background color.
 - A clear call-to-action to get in touch.
 - A prominent email link styled as a button.
-- Social media links (LinkedIn, Behance, Dribbble) to encourage further connection.
+- Social media links (WhatsApp, LinkedIn, Behance, Instagram) to encourage further connection.
 - A separate copyright footer.
 
 ## Project Status: Complete
@@ -51,3 +51,11 @@ This project is a personal portfolio website for an Art Director. The design is 
 - The "Contact" section has been redesigned to be more visually appealing and functional.
 - The image modal is fully functional.
 - The site is fully responsive.
+
+## Current Change: Update Social Links
+
+- **Goal**: Add WhatsApp and Behance links to the contact section.
+- **Actions**:
+    - Modified the footer in `index.html` to include the new links.
+    - Modified the footer in `works.html` to include the new links.
+    - Updated this blueprint to reflect the changes.
