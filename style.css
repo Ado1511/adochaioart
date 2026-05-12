@@ -78,18 +78,46 @@ section {
 
 #hero {
     background-color: var(--secondary-color);
-    min-height: 50vh;
+    min-height: 60vh; /* Aumentado para más espacio */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-quote {
+    font-family: var(--font-family-headings);
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #555;
+    border: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.hero-quote cite {
+    display: block;
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+
 #hero h1 {
     font-family: var(--font-family-headings);
-    font-size: 3rem;
-    margin: 0;
+    font-size: 3.5rem; /* Un poco más grande */
+    margin: 0 0 1rem 0;
 }
+
+.hero-tagline {
+    font-size: 1.2rem;
+    color: #666;
+}
+
 
 .projects-grid {
     display: grid;
@@ -399,7 +427,7 @@ section {
     }
 
     #hero h1 {
-        font-size: 2rem;
+        font-size: 2.5rem; /* Ajuste para móviles */
     }
 
     .projects-grid, .project-gallery, .project-gallery.four-images {
